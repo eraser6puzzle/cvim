@@ -35,7 +35,17 @@ let qmark a = ["http://www.reddit.com", "http://www.google.com", "http://twitter
 
 let blacklists = ["https://*.google.com/*", "*://*.google.com/*","://*.googleplex.com"]
 " blacklists prefixed by '@' act as a whitelist
-
+site '*://*.google.com/*' {
+      unmap j
+      unmap k
+      unmap .
+      unmap s
+      unmap f
+      unmap t
+      unmap p
+      unmap a
+      set numerichints
+}
 let mapleader = ","
 
 " Mappings
