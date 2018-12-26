@@ -1,4 +1,4 @@
-" Settings
+" 1Settings
 set nohud
 set nosmoothscroll
 set noautofocus " The opposite of autofocus; this setting stops
