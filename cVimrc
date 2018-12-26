@@ -1,4 +1,4 @@
-" 2Settings
+" 2Settings https://github.com/eraser6puzzle/cvim/blob/master/cVimrc
 set nohud
 set nosmoothscroll
 set noautofocus " The opposite of autofocus; this setting stops
